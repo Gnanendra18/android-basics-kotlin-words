@@ -43,6 +43,7 @@ class DetailActivity : AppCompatActivity() {
         recyclerView.adapter = WordAdapter(letterId, this)
 
         // Adds a [DividerItemDecoration] between items
+        //hello chnage
         recyclerView.addItemDecoration(
             DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         )
